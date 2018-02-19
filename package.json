@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/Gorgija/nodejstart/issues"
   },
-  "homepage": "https://github.com/Gorgija/nodejstart#readme"
+  "homepage": "https://github.com/Gorgija/nodejstart#readme",
+  "devDependencies": {
+    "@angular/cli": "^1.6.4"
+  }
 }
