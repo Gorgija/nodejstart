@@ -8,6 +8,7 @@ RUN adduser -D -g 'www' www && mkdir /www && chown -R www:www /var/lib/nginx && 
 
 WORKDIR ~/app
 
+COPY package.json ./
 COPY . .
 
 RUN npm set progress=false && npm config set depth 0 && npm cache clean --force
